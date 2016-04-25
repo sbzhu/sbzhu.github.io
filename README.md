@@ -1,6 +1,6 @@
 # AbelZhu blog
 
-###[View Live Blog ¡ú](http://sbzhu.github.io)
+###[View Live Blog](http://sbzhu.github.io)
 
 This blog system is built from a jekyll template Thanks to *[Huxpro](https://github.com/Huxpro)*
 
