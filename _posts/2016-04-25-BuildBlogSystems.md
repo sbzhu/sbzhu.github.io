@@ -1,13 +1,16 @@
 ---
 layout:     post
-title:      "Hello 2015"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2016-01-29 12:00:00
+title:      "Build your own blog"
+subtitle:   "Using jekyll and Github pages"
+date:       2016-04-25 12:00:00
 author:     "abelzhu"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 生活
+    - blog
+    - jekyll
+    - Github
+    - website
 ---
 
 ---

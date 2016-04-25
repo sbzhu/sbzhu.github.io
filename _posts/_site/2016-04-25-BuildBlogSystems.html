@@ -1,0 +1,60 @@
+<hr />
+
+<h1 id="create-new-repository">Create new repository</h1>
+<p>You’ll need to create a repository named <strong>username.github.io</strong>. 
+The <strong>username</strong> must be your github name.
+So as my repository <em>sbzhu.github.io</em></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/1965578-92aca401485b4df5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Create new repository" /></p>
+
+<hr />
+
+<h1 id="clone-your-new-repository-to-local-disk">Clone your new repository to local disk</h1>
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone git@github.com:/sbzhu/sbzhu.github.io Then a director named .git is about here.
+</code></pre>
+</div>
+
+<hr />
+
+<h1 id="get-others-jekyll-template">Get other’s jekyll template</h1>
+<p>You can get jekyll template from website like <a href="http://jekyllthemes.org/">jekyll themes</a> or just simply clone one from others github like this:
++ clone template jekyll to local</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>  git clone https://github.com/sbzhu/huxpro.github.io.git Then you'll get a director named *huxpro.github.io.git* + Run this jekyll on localhost
+
+  cd huxpro.github.io.git
+  jekyll build
+  jekyll serve + browse it with site : *http://localhost:4000*
+</code></pre>
+</div>
+
+<hr />
+
+<h1 id="add-template-jekyll-project">Add template jekyll project</h1>
+<div class="highlighter-rouge"><pre class="highlight"><code>cp -r huxpro.github.io.git/!(.git) sbzhu.github.io/
+</code></pre>
+</div>
+
+<hr />
+
+<h1 id="push-this-repository-to-github">Push this repository to github</h1>
+<div class="highlighter-rouge"><pre class="highlight"><code>git add -A
+git commit -m 'initial version'
+git push origin master
+</code></pre>
+</div>
+
+<hr />
+
+<h1 id="enjoy-you-github-pages">Enjoy you Github pages</h1>
+<p>Visit the website <em>www.sbzhu.github.io</em></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/1965578-5f85cecae121b893.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></p>
+
+<hr />
+<hr />
+
+<ul>
+  <li><a href="http://m.blog.csdn.net/article/details?id=51167883">Reference 1</a></li>
+  <li><a href="https://github.com/sbzhu/huxpro.github.io">A good template of jekyll repository</a></li>
+</ul>
