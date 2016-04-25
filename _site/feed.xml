@@ -5,24 +5,27 @@
     <description>Stay hungry, stay fullish.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Apr 2016 02:20:43 +0800</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2016 02:20:43 +0800</lastBuildDate>
+    <pubDate>Tue, 26 Apr 2016 02:30:09 +0800</pubDate>
+    <lastBuildDate>Tue, 26 Apr 2016 02:30:09 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
         <title>User&#39;s Document of this blog system</title>
-        <description>&lt;h1 id=&quot;abelzhu-blog&quot;&gt;AbelZhu blog&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;about&quot;&gt;about&lt;/h1&gt;
 
-&lt;p&gt;###&lt;a href=&quot;http://sbzhu.github.io&quot;&gt;View Live Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/sbzhu/sbzhu.github.io&quot;&gt;Source Code on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://sbzhu.github.io&quot;&gt;View Live Blog&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This blog system is built from a jekyll template Thanks to &lt;em&gt;&lt;a href=&quot;https://github.com/Huxpro&quot;&gt;Huxpro&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Wellcome to use it as a template of your own blog:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
-&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Wellcome to use it as a template of your own blog:&lt;/p&gt;
 
-&lt;h2 id=&quot;document&quot;&gt;Document&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    $ git clone git@github.com:sbzhu/sbzhu.github.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;document&quot;&gt;Document&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Get Started

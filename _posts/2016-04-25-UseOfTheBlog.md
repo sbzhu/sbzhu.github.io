@@ -10,18 +10,22 @@ tags:
     - jekyll 
     - Github
 ---
-# AbelZhu blog
 
-###[View Live Blog](http://sbzhu.github.io)
+# about
+
+[Source Code on Github](https://github.com/sbzhu/sbzhu.github.io)
+
+[View Live Blog](http://sbzhu.github.io)
 
 This blog system is built from a jekyll template Thanks to *[Huxpro](https://github.com/Huxpro)*
 
 Wellcome to use it as a template of your own blog:
+
 ```
-$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+    $ git clone git@github.com:sbzhu/sbzhu.github.git
 ```
 
-## Document
+# Document
 
 * Get Started
 	* [Environment](#environment)
