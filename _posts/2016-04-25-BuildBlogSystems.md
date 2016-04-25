@@ -1,16 +1,13 @@
 ---
 layout:     post
-title:      "Build your own blog"
+title:      "Build your own blog system"
 subtitle:   "Using jekyll and Github pages"
-date:       2016-04-25 12:00:00
+date:       2016-04-25 17:00:00
 author:     "abelzhu"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - blog
-    - jekyll
-    - Github
-    - website
+    - 生活
 ---
 
 ---

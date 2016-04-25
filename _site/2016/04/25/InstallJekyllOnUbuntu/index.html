@@ -10,9 +10,9 @@
     <meta name="keyword"  content="abelzhu, sbzhu, computer science, network, operation system, linux">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Build your own blog - AbelZhu | AbelZhu Blog</title>
+    <title>Install jekyll - AbelZhu | AbelZhu Blog</title>
 
-    <link rel="canonical" href="/2015/06/29/BuildBlogSystems/">
+    <link rel="canonical" href="/2016/04/25/InstallJekyllOnUbuntu/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -163,15 +163,21 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#生活" title="生活">生活</a>
+                        <a class="tag" href="/tags/#jekyll" title="jekyll">jekyll</a>
+                        
+                        <a class="tag" href="/tags/#blog" title="blog">blog</a>
+                        
+                        <a class="tag" href="/tags/#ubuntu" title="ubuntu">ubuntu</a>
+                        
+                        <a class="tag" href="/tags/#linux" title="linux">linux</a>
                         
                     </div>
-                    <h1>Build your own blog</h1>
+                    <h1>Install jekyll</h1>
                     
                     
-                    <h2 class="subheading">Using jekyll and Github pages</h2>
+                    <h2 class="subheading">On Ubuntu system</h2>
                     
-                    <span class="meta">Posted by abelzhu on June 29, 2015</span>
+                    <span class="meta">Posted by abelzhu on April 25, 2016</span>
                 </div>
             </div>
         </div>
@@ -189,66 +195,110 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<hr />
+				<p><a href="http://jekyll.bootcss.com/">jekyll official website</a></p>
 
-<h1 id="create-new-repository">Create new repository</h1>
-<p>You’ll need to create a repository named <strong>username.github.io</strong>. 
-The <strong>username</strong> must be your github name.
-So as my repository <em>sbzhu.github.io</em></p>
+<h1 id="install-ruby">Install Ruby</h1>
 
-<p><img src="http://upload-images.jianshu.io/upload_images/1965578-92aca401485b4df5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Create new repository" /></p>
-
-<hr />
-
-<h1 id="clone-your-new-repository-to-local-disk">Clone your new repository to local disk</h1>
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone git@github.com:/sbzhu/sbzhu.github.io Then a director named .git is about here.
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="get-others-jekyll-template">Get other’s jekyll template</h1>
-<p>You can get jekyll template from website like <a href="http://jekyllthemes.org/">jekyll themes</a> or just simply clone one from others github like this:
-+ clone template jekyll to local</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>  git clone https://github.com/sbzhu/huxpro.github.io.git Then you'll get a director named *huxpro.github.io.git* + Run this jekyll on localhost
-
-  cd huxpro.github.io.git
-  jekyll build
-  jekyll serve + browse it with site : *http://localhost:4000*
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="add-template-jekyll-project">Add template jekyll project</h1>
-<div class="highlighter-rouge"><pre class="highlight"><code>cp -r huxpro.github.io.git/!(.git) sbzhu.github.io/
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="push-this-repository-to-github">Push this repository to github</h1>
-<div class="highlighter-rouge"><pre class="highlight"><code>git add -A
-git commit -m 'initial version'
-git push origin master
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="enjoy-you-github-pages">Enjoy you Github pages</h1>
-<p>Visit the website <em>www.sbzhu.github.io</em></p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/1965578-5f85cecae121b893.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></p>
-
-<hr />
-<hr />
+<p>We  can directly use <em>gem</em> to install Ruby，but Ruby on ubuntu14.14 are at 1.9 version, higher than 2.2 version is expected.</p>
 
 <ul>
-  <li><a href="http://m.blog.csdn.net/article/details?id=51167883">Reference 1</a></li>
-  <li><a href="https://github.com/sbzhu/huxpro.github.io">A good template of jekyll repository</a></li>
+  <li>
+    <p><a href="http://rubyinstaller.org/downloads/">download  ruby package</a>.I chosed the version 2.3.0.
+Clicke the link to download it or use wget :</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>utar it to /opt/</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>tar -xvfz ruby-2.3.0.tar.gz
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>change workdir to ruby-2.3.0，configure， make， make install</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>./configure
+make
+sudo make install
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Check the installed version</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>$ /opt/ruby-2.3.0$ ruby -v      
+</code></pre>
+    </div>
+  </li>
 </ul>
+
+<blockquote>
+  <p>ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]</p>
+</blockquote>
+
+<h1 id="install-jekyll">Install jekyll</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo gem install jekyll
+</code></pre>
+</div>
+
+<p>May there be some error :</p>
+
+<blockquote>
+  <p>ERROR:  Loading command: update (LoadError)
+cannot load such file – zlib
+ERROR:  While executing gem … (NoMethodError)
+undefined method `invoke_with_build_args’ for nil:NilClass</p>
+</blockquote>
+
+<p>Get into ruby-xx/ext/zlib/ , run the command below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ruby extconf.rb
+make
+sudo make install
+</code></pre>
+</div>
+
+<p>And we may meet other problem, Install sql related package:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install libmysqlclient-dev
+</code></pre>
+</div>
+
+<p>if still be error like:</p>
+
+<blockquote>
+  <p>ERROR:  While executing gem … (Gem::Exception)
+Unable to require openssl, install OpenSSL and rebuild ruby (preferred) or use non-HTTPS sources</p>
+</blockquote>
+
+<p>run the command below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>gem source -r https://rubygems.org/
+gem source -a http://rubygems.org/
+</code></pre>
+</div>
+
+<p>Then install jekyll</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo gem install jekyll
+</code></pre>
+</div>
+
+<h1 id="check-version">Check version</h1>
+
+<p>after that, check the jekyll version</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jekyll -v
+</code></pre>
+</div>
+
+<blockquote>
+  <p>Jekyll 3.1.3</p>
+</blockquote>
 
 
                 <hr>
@@ -258,14 +308,15 @@ git push origin master
                 </style>
                 <div class="ds-share"
                     style="text-align: right"
-                    data-thread-key="/2015/06/29/BuildBlogSystems"
-                    data-title="Build your own blog"
-                    data-url="/2015/06/29/BuildBlogSystems/"
+                    data-thread-key="/2016/04/25/InstallJekyllOnUbuntu"
+                    data-title="Install jekyll"
+                    data-url="/2016/04/25/InstallJekyllOnUbuntu/"
                     data-images="/img/post-bg-2015.jpg"
-                    data-content="
+                    data-content="jekyll official website
 
-Create new repository
-You’ll need to create a repository named username.git... | AbelZhu | AbelZhu Blog " >
+Install Ruby
+
+We  can directly use gem to install Ru... | AbelZhu | AbelZhu Blog " >
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
@@ -292,6 +343,13 @@ You’ll need to create a repository named username.git... | AbelZhu | AbelZhu B
                     </li>
                     
                     
+                    <li class="next">
+                        <a href="/2016/04/26/BuildBlogSystems/" data-toggle="tooltip" data-placement="top" title="Build your own blog system">
+                        Next<br>
+                        <span>Build your own blog system</span>
+                        </a>
+                    </li>
+                    
                 </ul>
 
 
@@ -299,9 +357,9 @@ You’ll need to create a repository named username.git... | AbelZhu | AbelZhu B
                 <!-- 多说评论框 start -->
                 <div class="comment">
                     <div class="ds-thread"
-                        data-thread-key="/2015/06/29/BuildBlogSystems"
-                        data-title="Build your own blog"
-                        data-url="/2015/06/29/BuildBlogSystems/" >
+                        data-thread-key="/2016/04/25/InstallJekyllOnUbuntu"
+                        data-title="Install jekyll"
+                        data-url="/2016/04/25/InstallJekyllOnUbuntu/" >
                     </div>
                 </div>
                 <!-- 多说评论框 end -->
@@ -345,6 +403,14 @@ You’ll need to create a repository named username.git... | AbelZhu | AbelZhu B
                 				<a href="/tags/#生活" title="生活" rel="2">
                                     生活
                                 </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
                             
         				
         			</div>
