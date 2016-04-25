@@ -1,0 +1,98 @@
+<h1 id="abelzhu-blog">AbelZhu blog</h1>
+
+<p>###<a href="http://sbzhu.github.io">View Live Blog</a></p>
+
+<p>This blog system is built from a jekyll template Thanks to <em><a href="https://github.com/Huxpro">Huxpro</a></em></p>
+
+<p>Wellcome to use it as a template of your own blog:
+<code class="highlighter-rouge">
+$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+</code></p>
+
+<h2 id="document">Document</h2>
+
+<ul>
+  <li>Get Started
+    <ul>
+      <li><a href="#environment">Environment</a></li>
+      <li><a href="#get-started">Get Started</a></li>
+      <li><a href="#write-posts">Write Posts</a></li>
+    </ul>
+  </li>
+  <li>Components
+    <ul>
+      <li><a href="#sidebar">SideBar</a></li>
+      <li><a href="#mini-about-me">Mini About Me</a></li>
+      <li><a href="#featured-tags">Featured Tags</a></li>
+      <li><a href="#friends">Friends</a></li>
+      <li><a href="#keynote-layout">Keynote Layout</a></li>
+    </ul>
+  </li>
+  <li>Comment &amp; Analysis
+    <ul>
+      <li><a href="#comment">Comment</a></li>
+      <li><a href="#analytics">Analytics</a></li>
+    </ul>
+  </li>
+  <li>Advanced
+    <ul>
+      <li><a href="#customization">Customization</a></li>
+      <li><a href="#header-image">Header Image</a></li>
+      <li><a href="#seo-title">SEO Title</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="environment">Environment</h4>
+
+<p>If you have jekyll installed, simply run <code class="highlighter-rouge">jekyll serve</code> in Command Line
+and preview the themes in your browser. You can use <code class="highlighter-rouge">jekyll serve --watch</code> to watch for changes in the source files as well.</p>
+
+<h4 id="get-started">Get Started</h4>
+
+<p>You can easily get started by modifying <code class="highlighter-rouge">_config.yml</code> and <em>_post</em>:
+<a href="http://jekyllrb.com/">Reference Docuement</a></p>
+
+<h4 id="extensions">Extensions</h4>
+<ul>
+  <li>Site settings</li>
+  <li>SNS settings</li>
+  <li>Build settings</li>
+  <li>SideBar</li>
+  <li>Mini About Me</li>
+  <li>Featured Tags</li>
+  <li>Friends</li>
+</ul>
+
+<h4 id="comment">Comment</h4>
+
+<p>This theme support both <a href="http://disqus.com">Disqus</a> and <a href="http://duoshuo.com">Duoshuo</a> as the third party discussion system.</p>
+
+<p>First, you need to sign up and get your own account. <strong>Repeat, DO NOT use mine!</strong> (I have set Trusted Domains) It is deathly simple to sign up and you will get the full power of management system. Please give it a try!</p>
+
+<p>Second, from V1.5, you can easily complete your comment configuration by just adding your <strong>short name</strong> into <code class="highlighter-rouge">_config.yml</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>duoshuo_username: _your_duoshuo_short_name_
+# OR
+disqus_username: _your_disqus_short_name_
+</code></pre>
+</div>
+
+<p><strong>To the old version user</strong>, it’s better that you pull the new version, otherwise you have to replace code in <code class="highlighter-rouge">post.html</code>, <code class="highlighter-rouge">keynote.html</code> and <code class="highlighter-rouge">about.html</code> by yourselves.</p>
+
+<p>Furthermore, Duoshuo support Sharing. if you only wanna use Duoshuo comment without sharing, you can set <code class="highlighter-rouge">duoshuo_share: false</code>. You can use Duoshuo Sharing and Disqus Comments together also.</p>
+
+<h4 id="analytics">Analytics</h4>
+
+<p>From V1.5, we support Google Analytics and Baidu Tongji officially with a deathly simple config:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+</code></pre>
+</div>
+
+<p>Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.</p>

@@ -10,9 +10,9 @@
     <meta name="keyword"  content="abelzhu, sbzhu, computer science, network, operation system, linux">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Hello 2015 - AbelZhu | AbelZhu Blog</title>
+    <title>User's Document of this blog system - AbelZhu | AbelZhu Blog</title>
 
-    <link rel="canonical" href="/2014/01/29/BuildBlogSystems/">
+    <link rel="canonical" href="/2016/04/26/UseOfTheBlog/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -163,15 +163,17 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#生活" title="生活">生活</a>
+                        <a class="tag" href="/tags/#jekyll" title="jekyll">jekyll</a>
+                        
+                        <a class="tag" href="/tags/#Github" title="Github">Github</a>
                         
                     </div>
-                    <h1>Hello 2015</h1>
+                    <h1>User's Document of this blog system</h1>
                     
                     
-                    <h2 class="subheading"> "Hello World, Hello Blog"</h2>
+                    <h2 class="subheading"> "readme"</h2>
                     
-                    <span class="meta">Posted by abelzhu on January 29, 2014</span>
+                    <span class="meta">Posted by abelzhu on April 26, 2016</span>
                 </div>
             </div>
         </div>
@@ -189,66 +191,104 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<hr />
+				<h1 id="abelzhu-blog">AbelZhu blog</h1>
 
-<h1 id="create-new-repository">Create new repository</h1>
-<p>You’ll need to create a repository named <strong>username.github.io</strong>. 
-The <strong>username</strong> must be your github name.
-So as my repository <em>sbzhu.github.io</em></p>
+<p>###<a href="http://sbzhu.github.io">View Live Blog</a></p>
 
-<p><img src="http://upload-images.jianshu.io/upload_images/1965578-92aca401485b4df5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Create new repository" /></p>
+<p>This blog system is built from a jekyll template Thanks to <em><a href="https://github.com/Huxpro">Huxpro</a></em></p>
 
-<hr />
+<p>Wellcome to use it as a template of your own blog:
+<code class="highlighter-rouge">
+$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+</code></p>
 
-<h1 id="clone-your-new-repository-to-local-disk">Clone your new repository to local disk</h1>
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone git@github.com:/sbzhu/sbzhu.github.io Then a director named .git is about here.
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="get-others-jekyll-template">Get other’s jekyll template</h1>
-<p>You can get jekyll template from website like <a href="http://jekyllthemes.org/">jekyll themes</a> or just simply clone one from others github like this:
-+ clone template jekyll to local</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>  git clone https://github.com/sbzhu/huxpro.github.io.git Then you'll get a director named *huxpro.github.io.git* + Run this jekyll on localhost
-
-  cd huxpro.github.io.git
-  jekyll build
-  jekyll serve + browse it with site : *http://localhost:4000*
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="add-template-jekyll-project">Add template jekyll project</h1>
-<div class="highlighter-rouge"><pre class="highlight"><code>cp -r huxpro.github.io.git/!(.git) sbzhu.github.io/
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="push-this-repository-to-github">Push this repository to github</h1>
-<div class="highlighter-rouge"><pre class="highlight"><code>git add -A
-git commit -m 'initial version'
-git push origin master
-</code></pre>
-</div>
-
-<hr />
-
-<h1 id="enjoy-you-github-pages">Enjoy you Github pages</h1>
-<p>Visit the website <em>www.sbzhu.github.io</em></p>
-
-<p><img src="http://upload-images.jianshu.io/upload_images/1965578-5f85cecae121b893.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></p>
-
-<hr />
-<hr />
+<h2 id="document">Document</h2>
 
 <ul>
-  <li><a href="http://m.blog.csdn.net/article/details?id=51167883">Reference 1</a></li>
-  <li><a href="https://github.com/sbzhu/huxpro.github.io">A good template of jekyll repository</a></li>
+  <li>Get Started
+    <ul>
+      <li><a href="#environment">Environment</a></li>
+      <li><a href="#get-started">Get Started</a></li>
+      <li><a href="#write-posts">Write Posts</a></li>
+    </ul>
+  </li>
+  <li>Components
+    <ul>
+      <li><a href="#sidebar">SideBar</a></li>
+      <li><a href="#mini-about-me">Mini About Me</a></li>
+      <li><a href="#featured-tags">Featured Tags</a></li>
+      <li><a href="#friends">Friends</a></li>
+      <li><a href="#keynote-layout">Keynote Layout</a></li>
+    </ul>
+  </li>
+  <li>Comment &amp; Analysis
+    <ul>
+      <li><a href="#comment">Comment</a></li>
+      <li><a href="#analytics">Analytics</a></li>
+    </ul>
+  </li>
+  <li>Advanced
+    <ul>
+      <li><a href="#customization">Customization</a></li>
+      <li><a href="#header-image">Header Image</a></li>
+      <li><a href="#seo-title">SEO Title</a></li>
+    </ul>
+  </li>
 </ul>
+
+<h4 id="environment">Environment</h4>
+
+<p>If you have jekyll installed, simply run <code class="highlighter-rouge">jekyll serve</code> in Command Line
+and preview the themes in your browser. You can use <code class="highlighter-rouge">jekyll serve --watch</code> to watch for changes in the source files as well.</p>
+
+<h4 id="get-started">Get Started</h4>
+
+<p>You can easily get started by modifying <code class="highlighter-rouge">_config.yml</code> and <em>_post</em>:
+<a href="http://jekyllrb.com/">Reference Docuement</a></p>
+
+<h4 id="extensions">Extensions</h4>
+<ul>
+  <li>Site settings</li>
+  <li>SNS settings</li>
+  <li>Build settings</li>
+  <li>SideBar</li>
+  <li>Mini About Me</li>
+  <li>Featured Tags</li>
+  <li>Friends</li>
+</ul>
+
+<h4 id="comment">Comment</h4>
+
+<p>This theme support both <a href="http://disqus.com">Disqus</a> and <a href="http://duoshuo.com">Duoshuo</a> as the third party discussion system.</p>
+
+<p>First, you need to sign up and get your own account. <strong>Repeat, DO NOT use mine!</strong> (I have set Trusted Domains) It is deathly simple to sign up and you will get the full power of management system. Please give it a try!</p>
+
+<p>Second, from V1.5, you can easily complete your comment configuration by just adding your <strong>short name</strong> into <code class="highlighter-rouge">_config.yml</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>duoshuo_username: _your_duoshuo_short_name_
+# OR
+disqus_username: _your_disqus_short_name_
+</code></pre>
+</div>
+
+<p><strong>To the old version user</strong>, it’s better that you pull the new version, otherwise you have to replace code in <code class="highlighter-rouge">post.html</code>, <code class="highlighter-rouge">keynote.html</code> and <code class="highlighter-rouge">about.html</code> by yourselves.</p>
+
+<p>Furthermore, Duoshuo support Sharing. if you only wanna use Duoshuo comment without sharing, you can set <code class="highlighter-rouge">duoshuo_share: false</code>. You can use Duoshuo Sharing and Disqus Comments together also.</p>
+
+<h4 id="analytics">Analytics</h4>
+
+<p>From V1.5, we support Google Analytics and Baidu Tongji officially with a deathly simple config:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+</code></pre>
+</div>
+
+<p>Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.</p>
 
 
                 <hr>
@@ -258,14 +298,15 @@ git push origin master
                 </style>
                 <div class="ds-share"
                     style="text-align: right"
-                    data-thread-key="/2014/01/29/BuildBlogSystems"
-                    data-title="Hello 2015"
-                    data-url="/2014/01/29/BuildBlogSystems/"
+                    data-thread-key="/2016/04/26/UseOfTheBlog"
+                    data-title="User's Document of this blog system"
+                    data-url="/2016/04/26/UseOfTheBlog/"
                     data-images="/img/post-bg-2015.jpg"
-                    data-content="
+                    data-content="AbelZhu blog
 
-Create new repository
-You’ll need to create a repository named username.git... | AbelZhu | AbelZhu Blog " >
+###View Live Blog
+
+This blog system is built from a jekyll temp... | AbelZhu | AbelZhu Blog " >
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
@@ -285,9 +326,9 @@ You’ll need to create a repository named username.git... | AbelZhu | AbelZhu B
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2014/01/29/hello-2015/" data-toggle="tooltip" data-placement="top" title="Hello 2015">
+                        <a href="/2016/04/26/BuildBlogSystems/" data-toggle="tooltip" data-placement="top" title="Build your own blog system">
                         Previous<br>
-                        <span>Hello 2015</span>
+                        <span>Build your own blog system</span>
                         </a>
                     </li>
                     
@@ -299,9 +340,9 @@ You’ll need to create a repository named username.git... | AbelZhu | AbelZhu B
                 <!-- 多说评论框 start -->
                 <div class="comment">
                     <div class="ds-thread"
-                        data-thread-key="/2014/01/29/BuildBlogSystems"
-                        data-title="Hello 2015"
-                        data-url="/2014/01/29/BuildBlogSystems/" >
+                        data-thread-key="/2016/04/26/UseOfTheBlog"
+                        data-title="User's Document of this blog system"
+                        data-url="/2016/04/26/UseOfTheBlog/" >
                     </div>
                 </div>
                 <!-- 多说评论框 end -->
@@ -342,9 +383,19 @@ You’ll need to create a repository named username.git... | AbelZhu | AbelZhu B
                     <div class="tags">
         				
                             
-                				<a href="/tags/#生活" title="生活" rel="2">
-                                    生活
+                				<a href="/tags/#jekyll" title="jekyll" rel="2">
+                                    jekyll
                                 </a>
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
+                            
+        				
                             
         				
         			</div>

@@ -1,0 +1,104 @@
+<p><a href="http://jekyll.bootcss.com/">jekyll official website</a></p>
+
+<h1 id="install-ruby">Install Ruby</h1>
+
+<p>We  can directly use <em>gem</em> to install Ruby，but Ruby on ubuntu14.14 are at 1.9 version, higher than 2.2 version is expected.</p>
+
+<ul>
+  <li>
+    <p><a href="http://rubyinstaller.org/downloads/">download  ruby package</a>.I chosed the version 2.3.0.
+Clicke the link to download it or use wget :</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>utar it to /opt/</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>tar -xvfz ruby-2.3.0.tar.gz
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>change workdir to ruby-2.3.0，configure， make， make install</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>./configure
+make
+sudo make install
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>Check the installed version</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>$ /opt/ruby-2.3.0$ ruby -v      
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<blockquote>
+  <p>ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]</p>
+</blockquote>
+
+<h1 id="install-jekyll">Install jekyll</h1>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo gem install jekyll
+</code></pre>
+</div>
+
+<p>May there be some error :</p>
+
+<blockquote>
+  <p>ERROR:  Loading command: update (LoadError)
+cannot load such file – zlib
+ERROR:  While executing gem … (NoMethodError)
+undefined method `invoke_with_build_args’ for nil:NilClass</p>
+</blockquote>
+
+<p>Get into ruby-xx/ext/zlib/ , run the command below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ruby extconf.rb
+make
+sudo make install
+</code></pre>
+</div>
+
+<p>And we may meet other problem, Install sql related package:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install libmysqlclient-dev
+</code></pre>
+</div>
+
+<p>if still be error like:</p>
+
+<blockquote>
+  <p>ERROR:  While executing gem … (Gem::Exception)
+Unable to require openssl, install OpenSSL and rebuild ruby (preferred) or use non-HTTPS sources</p>
+</blockquote>
+
+<p>run the command below:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>gem source -r https://rubygems.org/
+gem source -a http://rubygems.org/
+</code></pre>
+</div>
+
+<p>Then install jekyll</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo gem install jekyll
+</code></pre>
+</div>
+
+<h1 id="check-version">Check version</h1>
+
+<p>after that, check the jekyll version</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jekyll -v
+</code></pre>
+</div>
+
+<blockquote>
+  <p>Jekyll 3.1.3</p>
+</blockquote>

@@ -5,9 +5,121 @@
     <description>Stay hungry, stay fullish.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Apr 2016 01:43:18 +0800</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2016 01:43:18 +0800</lastBuildDate>
+    <pubDate>Tue, 26 Apr 2016 02:20:43 +0800</pubDate>
+    <lastBuildDate>Tue, 26 Apr 2016 02:20:43 +0800</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>User&#39;s Document of this blog system</title>
+        <description>&lt;h1 id=&quot;abelzhu-blog&quot;&gt;AbelZhu blog&lt;/h1&gt;
+
+&lt;p&gt;###&lt;a href=&quot;http://sbzhu.github.io&quot;&gt;View Live Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog system is built from a jekyll template Thanks to &lt;em&gt;&lt;a href=&quot;https://github.com/Huxpro&quot;&gt;Huxpro&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Wellcome to use it as a template of your own blog:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;document&quot;&gt;Document&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get Started
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#environment&quot;&gt;Environment&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#get-started&quot;&gt;Get Started&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#write-posts&quot;&gt;Write Posts&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Components
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#sidebar&quot;&gt;SideBar&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mini-about-me&quot;&gt;Mini About Me&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#featured-tags&quot;&gt;Featured Tags&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#friends&quot;&gt;Friends&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#keynote-layout&quot;&gt;Keynote Layout&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Comment &amp;amp; Analysis
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#comment&quot;&gt;Comment&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#analytics&quot;&gt;Analytics&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Advanced
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#customization&quot;&gt;Customization&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#header-image&quot;&gt;Header Image&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#seo-title&quot;&gt;SEO Title&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;environment&quot;&gt;Environment&lt;/h4&gt;
+
+&lt;p&gt;If you have jekyll installed, simply run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; in Command Line
+and preview the themes in your browser. You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt; to watch for changes in the source files as well.&lt;/p&gt;
+
+&lt;h4 id=&quot;get-started&quot;&gt;Get Started&lt;/h4&gt;
+
+&lt;p&gt;You can easily get started by modifying &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;em&gt;_post&lt;/em&gt;:
+&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Reference Docuement&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;extensions&quot;&gt;Extensions&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Site settings&lt;/li&gt;
+  &lt;li&gt;SNS settings&lt;/li&gt;
+  &lt;li&gt;Build settings&lt;/li&gt;
+  &lt;li&gt;SideBar&lt;/li&gt;
+  &lt;li&gt;Mini About Me&lt;/li&gt;
+  &lt;li&gt;Featured Tags&lt;/li&gt;
+  &lt;li&gt;Friends&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;comment&quot;&gt;Comment&lt;/h4&gt;
+
+&lt;p&gt;This theme support both &lt;a href=&quot;http://disqus.com&quot;&gt;Disqus&lt;/a&gt; and &lt;a href=&quot;http://duoshuo.com&quot;&gt;Duoshuo&lt;/a&gt; as the third party discussion system.&lt;/p&gt;
+
+&lt;p&gt;First, you need to sign up and get your own account. &lt;strong&gt;Repeat, DO NOT use mine!&lt;/strong&gt; (I have set Trusted Domains) It is deathly simple to sign up and you will get the full power of management system. Please give it a try!&lt;/p&gt;
+
+&lt;p&gt;Second, from V1.5, you can easily complete your comment configuration by just adding your &lt;strong&gt;short name&lt;/strong&gt; into &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;duoshuo_username: _your_duoshuo_short_name_
+# OR
+disqus_username: _your_disqus_short_name_
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To the old version user&lt;/strong&gt;, it’s better that you pull the new version, otherwise you have to replace code in &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;keynote.html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;about.html&lt;/code&gt; by yourselves.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, Duoshuo support Sharing. if you only wanna use Duoshuo comment without sharing, you can set &lt;code class=&quot;highlighter-rouge&quot;&gt;duoshuo_share: false&lt;/code&gt;. You can use Duoshuo Sharing and Disqus Comments together also.&lt;/p&gt;
+
+&lt;h4 id=&quot;analytics&quot;&gt;Analytics&lt;/h4&gt;
+
+&lt;p&gt;From V1.5, we support Google Analytics and Baidu Tongji officially with a deathly simple config:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+
+# Google Analytics
+ga_track_id: &#39;UA-49627206-1&#39;            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Apr 2016 02:00:00 +0800</pubDate>
+        <link>/2016/04/26/UseOfTheBlog/</link>
+        <guid isPermaLink="true">/2016/04/26/UseOfTheBlog/</guid>
+        
+        <category>jekyll</category>
+        
+        <category>Github</category>
+        
+        
+      </item>
     
       <item>
         <title>Build your own blog system</title>
@@ -199,85 +311,6 @@ gem source -a http://rubygems.org/
         <category>ubuntu</category>
         
         <category>linux</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello 2015</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;“Yeah It’s on. ”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-
-&lt;p&gt;Hux 的 Blog 就这么开通了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;跳过废话，直接看技术实现 &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2015 年，Hux 总算有个地方可以好好写点东西了。&lt;/p&gt;
-
-&lt;p&gt;作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。&lt;/p&gt;
-
-&lt;p&gt;在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的&lt;a href=&quot;http://huangxuan.me/portfolio&quot;&gt;个人网站&lt;/a&gt;是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！&lt;/p&gt;
-
-&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;正文&lt;/h2&gt;
-
-&lt;p&gt;接下来说说搭建这个博客的技术细节。&lt;/p&gt;
-
-&lt;p&gt;正好之前就有关注过 &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 快速 Building Blog 的技术方案，非常轻松时尚。&lt;/p&gt;
-
-&lt;p&gt;其优点非常明显：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 带来的优雅写作体验&lt;/li&gt;
-  &lt;li&gt;非常熟悉的 Git workflow ，&lt;strong&gt;Git Commit 即 Blog Post&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
-    &lt;ul&gt;
-      &lt;li&gt;如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Jekyll 的自定制非常容易，基本就是个模版引擎&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本来觉得最大的缺点可能是 GitHub 在国内访问起来太慢，所以第二天一起床就到 GitCafe(Chinese GitHub Copy) 迁移了一个&lt;a href=&quot;http://huxpro.gitcafe.io&quot;&gt;镜像&lt;/a&gt;出来，结果还是巨慢。&lt;/p&gt;
-
-&lt;p&gt;哥哥可是个前端好嘛！ 果断开 Chrome DevTool 查了下网络请求，原来是 &lt;strong&gt;pending 在了 Google Fonts&lt;/strong&gt; 上，页面渲染一直被阻塞到请求超时为止，难怪这么慢。&lt;br /&gt;
-忍痛割爱，只好把 Web Fonts 去了（反正超时看到的也只能是 fallback ），果然一下就正常了，而且 GitHub 和 GitCafe 对比并没有感受到明显的速度差异，虽然 github 的 ping 值明显要高一些，达到了 300ms，于是用 DNSPOD 优化了一下速度。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;配置的过程中也没遇到什么坑，基本就是 Git 的流程，相当顺手&lt;/p&gt;
-
-&lt;p&gt;大的 Jekyll 主题上直接 fork 了 Clean Blog（这个主题也相当有名，就不多赘述了。唯一的缺点大概就是没有标签支持，于是我给它补上了。）&lt;/p&gt;
-
-&lt;p&gt;本地调试环境需要 &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;，结果 rubygem 的源居然被墙了……后来手动改成了我大淘宝的镜像源才成功&lt;/p&gt;
-
-&lt;p&gt;Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Less 里改就好了（平时更习惯 SCSS 些），&lt;strong&gt;不过其实我一直觉得 Bootstrap 在移动端的体验做得相当一般，比我在淘宝参与的团队 CSS 框架差多了……&lt;/strong&gt;所以为了体验，也补了不少 CSS 进去&lt;/p&gt;
-
-&lt;p&gt;最后就进入了耗时反而最长的&lt;strong&gt;做图、写字&lt;/strong&gt;阶段，也算是进入了&lt;strong&gt;写博客&lt;/strong&gt;的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。&lt;/p&gt;
-
-&lt;p&gt;第二天考虑中文字体的渲染，fork 了 &lt;a href=&quot;http://www.typeisbeautiful.com/&quot;&gt;Type is Beautiful&lt;/a&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;font&lt;/code&gt; CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;后记&lt;/h2&gt;
-
-&lt;p&gt;回顾这个博客的诞生，纯粹是出于个人兴趣。在知乎相关问题上回答并获得一定的 star 后，我决定把这个博客主题当作一个小小的开源项目来维护。&lt;/p&gt;
-
-&lt;p&gt;在经历 v1.0 - v1.5 的蜕变后，这个博客主题愈发完整，不但增加了诸多 UI 层的优化（opinionated）；在代码层面，更加丰富的配置项也使得这个主题拥有了更好的灵活性与可拓展性。而作为一个开源项目，我也积极的为其完善文档与解决 issue。&lt;/p&gt;
-
-&lt;p&gt;如果你恰好逛到了这里，希望你也能喜欢这个博客主题。&lt;/p&gt;
-
-&lt;p&gt;—— Hux 后记于 2015.10&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 29 Jan 2014 20:00:00 +0800</pubDate>
-        <link>/2014/01/29/hello-2015/</link>
-        <guid isPermaLink="true">/2014/01/29/hello-2015/</guid>
-        
-        <category>生活</category>
         
         
       </item>
