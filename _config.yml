@@ -1,28 +1,30 @@
 # Site settings
-eSEOTitle: AbelZhu Blog
-# title: "A computer lets you make more mistakes faster than any other invention in human history, with the possiple exception of handguns and tequila."
-title: "AbelZhu blog"
-header-img: img/home-bg.jpg
+title: AbelZhu Blog
+SEOTitle: AbelZhu | AbelZhu Blog
+header-img: img/404-bg.jpg
 email: sbzhu@ipp.cas.cn 
-description: "A computer lets you make more mistakes faster than any other invention in human history, with the possiple exception of handguns and tequila."
-keyword: "ablezhu, sbzhu, computer science, network, operation system, linux"
-# url: "http://huangxuan.me"              # your host, for absolute URL
+description: "Stay hungry, stay fullish."
+keyword: "abelzhu, sbzhu, computer science, network, operation system, linux"
+# url: "http://e"              # your host, for absolute URL
 # baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     15156684593
-zhihu_username:     sbzhu
+weibo_username:     15156684593 
+zhihu_username:     abelzhu 
 github_username:    sbzhu 
-# twitter_username:  
-# facebook_username: 
+#twitter_username:  
+facebook_username:  abelzhu 
 
 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.  highlighter: rouge permalink: pretty paginate: 10
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -48,7 +50,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: abelzhublog
+duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -66,7 +68,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "A computer lets you make more mistakes faster than any other invention in human history, with the possiple exception of handguns and tequila."
+sidebar-about-description: "A computer lets you make more mistakes faster than any other invention in human history, with the posible exception of handguns and tequila."
 sidebar-avatar: /img/abelzhu.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -83,20 +85,11 @@ friends: [
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
         title: "Ebn's Blog",
         href: "http://ebnbin.com/"
     },{
         title: "SmdCn's Blog",
         href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
     },{
         title: "DHong Say",
         href: "http://dhong.co"
