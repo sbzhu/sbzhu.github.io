@@ -190,3 +190,5 @@ gems:
     #- jemoji
 
 markdown: kramdown
+kramdown:
+  input: GFM
