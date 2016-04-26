@@ -8,7 +8,7 @@ tags: [ 'tutorial', 'jekyll', 'ubuntu', 'blog' ]
 
 [jekyll official website](http://jekyll.bootcss.com/)
 
-# Install Ruby
+### Install Ruby
 
 We  can directly use *gem* to install Ruby，but Ruby on ubuntu14.14 are at 1.9 version, higher than 2.2 version is expected.
 
@@ -33,7 +33,7 @@ Clicke the link to download it or use wget :
 
 > ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
 
-# Install jekyll
+### Install jekyll
 
     sudo gem install jekyll
 
@@ -68,7 +68,7 @@ Then install jekyll
 
     sudo gem install jekyll
 
-# Check version
+### Check version
 
 after that, check the jekyll version
 

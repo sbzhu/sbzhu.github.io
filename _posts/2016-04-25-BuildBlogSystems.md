@@ -8,7 +8,7 @@ tags: [ 'tutorial', 'jekyll', 'Github', 'ubuntu', 'blog' ]
 
 ---
 
-# Create new repository
+### Create new repository
 You'll need to create a repository named <strong>username.github.io</strong>. 
 The <strong>username</strong> must be your github name.
 So as my repository *sbzhu.github.io*
@@ -17,13 +17,13 @@ So as my repository *sbzhu.github.io*
 
 ---
 
-# Clone your new repository to local disk 
+### Clone your new repository to local disk 
     git clone git@github.com:/sbzhu/sbzhu.github.io
 Then a director named .git is about here.
 
 ---
 
-# Get other's jekyll template
+### Get other's jekyll template
 You can get jekyll template from website like [jekyll themes](http://jekyllthemes.org/) or just simply clone one from others github like this:
 + clone template jekyll to local
 
@@ -38,19 +38,19 @@ Then you'll get a director named *huxpro.github.io.git*
 
 ---
 
-# Add template jekyll project
+### Add template jekyll project
     cp -r huxpro.github.io.git/!(.git) sbzhu.github.io/
 
 ---
 
-# Push this repository to github
+### Push this repository to github
     git add -A
     git commit -m 'initial version'
     git push origin master
 
 ---
 
-# Enjoy you Github pages
+### Enjoy you Github pages
 
 Here is the example of syntax highlighting
 <pre><code data-trim class="c">
