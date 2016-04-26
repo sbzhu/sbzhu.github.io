@@ -1,5 +1,5 @@
 install
-  - Installs jekyll and the dependencies required by personal-jekyll-theme
+  - Installs jekyll and the dependencies required by sbzhu.github.io
 
 serve-production
   - Builds and serves your website in 127.0.0.1:4000
@@ -17,5 +17,5 @@ generate-tag
   - Generate all the tags that are used in the \_posts
 
 integrate-personal
-  - Integrates the latest bug fixes and new features from personal-jekyll-theme repository.
-  Make sure to read [this](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Integrating-latest-bug-fixes-and-features-into-your-past-fork) before using it.
+  - Integrates the latest bug fixes and new features from sbzhu.github.io repository.
+  Make sure to read [this](https://github.com/PanosSakkos/sbzhu.github.io/wiki/Integrating-latest-bug-fixes-and-features-into-your-past-fork) before using it.

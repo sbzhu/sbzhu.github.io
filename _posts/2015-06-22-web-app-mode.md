@@ -25,13 +25,13 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 This is how your website will look when added to the homescreen:
 
-![iOS](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/ios.jpg)
+![iOS](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/ios.jpg)
 
-![Android](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/pinned.jpg)
+![Android](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/pinned.jpg)
 
 And when the user opens it (note that it renders in fullscreen):
 
-![Web App](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/web-app.jpg)
+![Web App](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/web-app.jpg)
 
 # Browser status bar customization
 

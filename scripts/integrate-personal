@@ -4,7 +4,7 @@
 
 require 'fileutils'
 
-personal = "../personal-jekyll-theme"
+personal = "../sbzhu.github.io"
 
 repoDirectories = [ '_includes', '_layouts', '_sass', 'blog', 'css', 'js' ]
 repoFiles = [ 'feed.xml', 'manifest.json', 'sitemap.xml' ]

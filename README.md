@@ -1,11 +1,11 @@
-![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
-[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+![Build Status](https://travis-ci.org/PanosSakkos/sbzhu.github.io.svg?branch=master)
+[![Join the chat at https://gitter.im/PanosSakkos/sbzhu.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/sbzhu.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # { Personal } Jekyll Theme
 
 { Personal } is a free responsive Jekyll theme, about you :wink:
 
-You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-theme/)!
+You can watch it in action [here](https://panossakkos.github.io/sbzhu.github.io/)!
 
 ## What value does { Personal } add
 
@@ -43,45 +43,45 @@ You can watch it in action [here](https://panossakkos.github.io/personal-jekyll-
 
 Want to get { Personal } without messing with jekyll installations and terminal commands?
 
-  1. Fork the personal-jekyll-theme repository
+  1. Fork the sbzhu.github.io repository
   2. Rename the forked repository to yourgithubusername.github.io
   3. Visit https://yourgithubusername.github.io
   4. Start modifying the \_config.yml and editing your blog's posts from Github's online editor or a third party online editor (i.e. [Prose](https://prose.io/))
 
 ## Documentation
 
-The theme contains documentation in the form of [blog posts](https://panossakkos.github.io/personal-jekyll-theme/blog/index.html).
+The theme contains documentation in the form of [blog posts](https://panossakkos.github.io/sbzhu.github.io/blog/index.html).
 
 ## Screenshots
 ### Header
-![Intro](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/index.jpg)
+![Intro](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/index.jpg)
 ### About
-![About](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/about.jpg)
+![About](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/about.jpg)
 ### Latest post preview
-![Blog](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blog.jpg)
+![Blog](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/blog.jpg)
 ### Timeline
-![Timeline](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/timeline.jpg)
+![Timeline](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/timeline.jpg)
 ### Blog Archive
-![Archive](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/archive.jpg)
+![Archive](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/archive.jpg)
 ### Gesture navigation instructions
-![Instructions](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/swipe.jpg)
+![Instructions](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/swipe.jpg)
 ### Post page
-![Post](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/post.jpg)
+![Post](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/post.jpg)
 ### Author blurb
-![Blurb](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/blurb.jpg)
+![Blurb](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/blurb.jpg)
 ### Hashtags
-![Tags](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/tags.jpg)
+![Tags](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/tags.jpg)
 ### Categories
-![Categories](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/categories.jpg)
+![Categories](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/categories.jpg)
 ### 404
-![404](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/404.jpg)
+![404](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/404.jpg)
 ### Mobile rendering
-![Web App](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/web-app.jpg)
+![Web App](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/web-app.jpg)
 ### Web App mode
 
-![iOS](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/ios.jpg)
+![iOS](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/ios.jpg)
 
-![Android](https://dl.dropboxusercontent.com/u/8522559/personal-jekyll-theme/pinned.jpg)
+![Android](https://dl.dropboxusercontent.com/u/8522559/sbzhu.github.io/pinned.jpg)
 
 ## How to run locally
 
@@ -99,12 +99,12 @@ Then, you can build and serve your website by simply running:
 
 ## Wiki
 
-Don't forget to list your { Personal } blog in the [Blogs using { Personal }](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Blogs-using-%7B-Personal-%7D) wiki page in order to drive some traffic to your website :wink:
+Don't forget to list your { Personal } blog in the [Blogs using { Personal }](https://github.com/PanosSakkos/sbzhu.github.io/wiki/Blogs-using-%7B-Personal-%7D) wiki page in order to drive some traffic to your website :wink:
 
 ## Integrating bug fixes and features into your old fork
 
 Have you published your own website by forking { Personal } and now you want to get the latest bug fixes and features from this repo into your website?
-Then check [this](https://github.com/PanosSakkos/personal-jekyll-theme/wiki/Upgrading-your-%7B-Personal-%7D-website-with-our-latest-bug-fixes-and-features) out.
+Then check [this](https://github.com/PanosSakkos/sbzhu.github.io/wiki/Upgrading-your-%7B-Personal-%7D-website-with-our-latest-bug-fixes-and-features) out.
 
 ## OSS used in { Personal }
 

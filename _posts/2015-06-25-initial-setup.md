@@ -24,7 +24,7 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /sbzhu.github.io
 </code></pre>
 
 The url and baseurl variables are essential, because they are used *everywhere* where an anchor is defined!
