@@ -10,9 +10,10 @@
 				<title>定制博客</title>
 				
 				
-					<description>&lt;p&gt;除了定制_config.yml文件，另外再提一些东西
-### 目录说明
-_include/ 下是网页各个子部分
+					<description>&lt;p&gt;除了定制_config.yml文件，另外再提一些东西&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;目录说明&lt;/h3&gt;
+&lt;p&gt;_include/ 下是网页各个子部分
 _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 
 &lt;h3 id=&quot;css-&quot;&gt;css 样式&lt;/h3&gt;
@@ -21,9 +22,13 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;section id=&quot;post&quot; class=&quot;container content-section text-center&quot;&amp;gt;
   &amp;lt;div class=&quot;row&quot;&amp;gt;
 	&amp;lt;div class=&quot;col-md-10 col-md-offset-1&quot;&amp;gt;
-	  &amp;lt;p&amp;gt;除了定制_config.yml文件，另外再提一些东西 ### 目录说明 _include/ 下是网页各个子部分 _layouts/ 下是各个大部分对小之部分的组合&amp;lt;/p&amp;gt;
+	  &amp;lt;p&amp;gt;除了定制_config.yml文件，另外再提一些东西&amp;lt;/p&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;目录说明&lt;/h3&gt;
+&lt;p&gt;_include/ 下是网页各个子部分
+_layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 
 &lt;h3 id=&quot;css-&quot;&gt;css 样式&lt;/h3&gt;
 &lt;p&gt;一般以class的方式定义在css文件中，例如about.html文件中有如下代码：&lt;/p&gt;
@@ -31,9 +36,13 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;section id=&quot;post&quot; class=&quot;container content-section text-center&quot;&amp;gt;
   &amp;lt;div class=&quot;row&quot;&amp;gt;
 	&amp;lt;div class=&quot;col-md-10 col-md-offset-1&quot;&amp;gt;
-	  &amp;lt;p&amp;gt;除了定制_config.yml文件，另外再提一些东西 ### 目录说明 _include/ 下是网页各个子部分 _layouts/ 下是各个大部分对小之部分的组合&amp;lt;/p&amp;gt;
+	  &amp;lt;p&amp;gt;除了定制_config.yml文件，另外再提一些东西&amp;lt;/p&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;目录说明&lt;/h3&gt;
+&lt;p&gt;_include/ 下是网页各个子部分
+_layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 
 &lt;h3 id=&quot;css-&quot;&gt;css 样式&lt;/h3&gt;
 &lt;p&gt;一般以class的方式定义在css文件中，例如about.html文件中有如下代码：&lt;/p&gt;
@@ -48,17 +57,17 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;背景色&lt;/h3&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;_sass/_variables.scss 中定义背景色、字体颜色&lt;/li&gt;
   &lt;li&gt;可以包含背景图片。参考 _includes/header.html 即首页使用intro属性
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-c9c0761c80d10fec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;调试方法&lt;/h3&gt;
+&lt;h3 id=&quot;section-2&quot;&gt;调试方法&lt;/h3&gt;
 &lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;博客发布&lt;/h3&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;如果在Windows下编写markdown博客，
@@ -81,17 +90,17 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;背景色&lt;/h3&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;_sass/_variables.scss 中定义背景色、字体颜色&lt;/li&gt;
   &lt;li&gt;可以包含背景图片。参考 _includes/header.html 即首页使用intro属性
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-c9c0761c80d10fec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;调试方法&lt;/h3&gt;
+&lt;h3 id=&quot;section-2&quot;&gt;调试方法&lt;/h3&gt;
 &lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;博客发布&lt;/h3&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;如果在Windows下编写markdown博客，
@@ -114,17 +123,17 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;背景色&lt;/h3&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;_sass/_variables.scss 中定义背景色、字体颜色&lt;/li&gt;
   &lt;li&gt;可以包含背景图片。参考 _includes/header.html 即首页使用intro属性
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-c9c0761c80d10fec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;调试方法&lt;/h3&gt;
+&lt;h3 id=&quot;section-2&quot;&gt;调试方法&lt;/h3&gt;
 &lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;博客发布&lt;/h3&gt;
+&lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;如果在Windows下编写markdown博客，
