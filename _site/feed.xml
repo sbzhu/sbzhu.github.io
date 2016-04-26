@@ -7,6 +7,159 @@
 		<atom:link href="https://sbzhu.github.io/sbzhu.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Useofblog</title>
+				
+				
+					<description>&lt;h1 id=&quot;section&quot;&gt;博客定制&lt;/h1&gt;
+
+&lt;p&gt;除了定制_config.yml文件，另外再提一些东西
+### 目录说明
+_include/ 下是网页各个子部分
+_layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
+
+&lt;h3 id=&quot;css-&quot;&gt;css 样式&lt;/h3&gt;
+&lt;p&gt;一般以class的方式定义在css文件中，例如about.html文件中有如下代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;section id=&quot;&quot; class=&quot;container content-section text-center&quot;&amp;gt;
+  &amp;lt;div class=&quot;row&quot;&amp;gt;
+	&amp;lt;div class=&quot;col-md-10 col-md-offset-1&quot;&amp;gt;
+	  &amp;lt;h1 id=&quot;section&quot;&amp;gt;博客定制&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;除了定制_config.yml文件，另外再提一些东西
+### 目录说明
+_include/ 下是网页各个子部分
+_layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
+
+&lt;h3 id=&quot;css-&quot;&gt;css 样式&lt;/h3&gt;
+&lt;p&gt;一般以class的方式定义在css文件中，例如about.html文件中有如下代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;section id=&quot;&quot; class=&quot;container content-section text-center&quot;&amp;gt;
+  &amp;lt;div class=&quot;row&quot;&amp;gt;
+	&amp;lt;div class=&quot;col-md-10 col-md-offset-1&quot;&amp;gt;
+	  &amp;lt;h1 id=&quot;section&quot;&amp;gt;博客定制&amp;lt;/h1&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;除了定制_config.yml文件，另外再提一些东西
+### 目录说明
+_include/ 下是网页各个子部分
+_layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
+
+&lt;h3 id=&quot;css-&quot;&gt;css 样式&lt;/h3&gt;
+&lt;p&gt;一般以class的方式定义在css文件中，例如about.html文件中有如下代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;section id=&quot;{{ page.section-type }}&quot; class=&quot;container content-section text-center&quot;&amp;gt;
+  &amp;lt;div class=&quot;row&quot;&amp;gt;
+	&amp;lt;div class=&quot;col-md-10 col-md-offset-1&quot;&amp;gt;
+	  {{ page.content | markdownify }}
+	&amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt; *text-center* 字体居中
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;_sass/_variables.scss 中定义背景色、字体颜色&lt;/li&gt;
+  &lt;li&gt;可以包含背景图片。参考 _includes/header.html 即首页使用intro属性
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-c9c0761c80d10fec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;调试方法&lt;/h3&gt;
+&lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果在Windows下编写markdown博客，
+推荐使用 &lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt; + Winscp + notpad++ 的组合
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;
+注意必须Windows下必须使用notepad++编辑并保存为&lt;em&gt;UTF-无BOM&lt;/em&gt;格式，否者会编译不通过。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-push.sh
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt; *text-center* 字体居中
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;_sass/_variables.scss 中定义背景色、字体颜色&lt;/li&gt;
+  &lt;li&gt;可以包含背景图片。参考 _includes/header.html 即首页使用intro属性
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-c9c0761c80d10fec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;调试方法&lt;/h3&gt;
+&lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果在Windows下编写markdown博客，
+推荐使用 &lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt; + Winscp + notpad++ 的组合
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;
+注意必须Windows下必须使用notepad++编辑并保存为&lt;em&gt;UTF-无BOM&lt;/em&gt;格式，否者会编译不通过。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-push.sh
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt; *text-center* 字体居中
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;_sass/_variables.scss 中定义背景色、字体颜色&lt;/li&gt;
+  &lt;li&gt;可以包含背景图片。参考 _includes/header.html 即首页使用intro属性
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-c9c0761c80d10fec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;调试方法&lt;/h3&gt;
+&lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果在Windows下编写markdown博客，
+推荐使用 &lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt; + Winscp + notpad++ 的组合
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;
+注意必须Windows下必须使用notepad++编辑并保存为&lt;em&gt;UTF-无BOM&lt;/em&gt;格式，否者会编译不通过。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-push.sh
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				
+				<pubDate>Tue, 26 Apr 2016 00:00:00 +0800</pubDate>
+				<link>https://sbzhu.github.io/sbzhu.github.io/2016/04/26/UseOfBlog.html</link>
+				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/2016/04/26/UseOfBlog.html</guid>
+			</item>
+		
+			<item>
 				<title>Install jekyll on Ubuntu system</title>
 				
 				
