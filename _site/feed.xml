@@ -1,78 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{ abelzhu blog }</title>
+		<title>Stay hungry, stay fullish. -- Steve Jobs</title>
 		<description>Blogging mainly for tech. Opinions expressed are mine.</description>
 		<link>https://sbzhu.github.io/sbzhu.github.io</link>
 		<atom:link href="https://sbzhu.github.io/sbzhu.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Welcome to { Personal } Jekyll Theme!</title>
+				<title>Install jekyll on Ubuntu system</title>
 				
 				
-					<description>&lt;p&gt;Click the view more posts link bellow, to see the currently available post-tutorials to help you get your { Personal } website up and running quicker!&lt;/p&gt;
+					<description>&lt;p&gt;&lt;a href=&quot;http://jekyll.bootcss.com/&quot;&gt;jekyll official website&lt;/a&gt;&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Sat, 27 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/27/welcome.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/27/welcome.html</guid>
+				<pubDate>Mon, 25 Apr 2016 00:00:00 +0800</pubDate>
+				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2016/04/25/InstallJekyllOnUbuntu.html</link>
+				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2016/04/25/InstallJekyllOnUbuntu.html</guid>
 			</item>
 		
 			<item>
-				<title>Initial setup</title>
+				<title>Build your own blog system using jekyll and Github pages</title>
 				
 				
-					<description>&lt;p&gt;All features of { Personal } are controlled by setting values to variables that are defined in the
-_config.yml file. Let’s start with the initial variables that you have to set before
-serving your { Personal } website for the first time.&lt;/p&gt;
+					<description>&lt;hr /&gt;
 
 </description>
 				
-				<pubDate>Thu, 25 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/25/initial-setup.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/25/initial-setup.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Header</title>
-				
-				
-					<description>&lt;p&gt;The intro part of the index page (Header) is consisted of four elements:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 24 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/24/intro-layout-tutorial.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/24/intro-layout-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Web app mode</title>
-				
-				
-					<description>&lt;p&gt;You can make your website behave like a native web app in iOS and Android devices
-by providing links for the icons for each resolution:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Mon, 22 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/22/web-app-mode.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/22/web-app-mode.html</guid>
-			</item>
-		
-			<item>
-				<title>Setting up the Blog</title>
-				
-				
-					<description>&lt;p&gt;A website is truly personal if it hosts your blog as well, this place of the internet
-where you can place your thoughts about anything!&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 20 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/20/blog-tutorial.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/20/blog-tutorial.html</guid>
+				<pubDate>Mon, 25 Apr 2016 00:00:00 +0800</pubDate>
+				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2016/04/25/BuildBlogSystems.html</link>
+				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2016/04/25/BuildBlogSystems.html</guid>
 			</item>
 		
 			<item>
@@ -86,46 +43,6 @@ where you can place your thoughts about anything!&lt;/p&gt;
 				<pubDate>Fri, 19 Jun 2015 00:00:00 +0800</pubDate>
 				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/19/writing-posts.html</link>
 				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/19/writing-posts.html</guid>
-			</item>
-		
-			<item>
-				<title>Adding a life event in the Timeline</title>
-				
-				
-					<description>&lt;p&gt;One of the coolest features of { Personal } is that enables you to tell your life’s story in
-the form of a timeline of photos, dates and text descriptions.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 12 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/12/timeline-tutorial.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/12/timeline-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the social buttons</title>
-				
-				
-					<description>&lt;p&gt;Social buttons (rendered above the footer) are great for having a small hub with all your social footprint.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 11 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/11/social-buttons-tutorial.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/11/social-buttons-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Contact</title>
-				
-				
-					<description>&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 10 Jun 2015 00:00:00 +0800</pubDate>
-				<link>https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/10/contact-tutorial.html</link>
-				<guid isPermaLink="true">https://sbzhu.github.io/sbzhu.github.io/tech/2015/06/10/contact-tutorial.html</guid>
 			</item>
 		
 	</channel>
