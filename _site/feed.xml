@@ -70,21 +70,16 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
 
 &lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;如果在Windows下编写markdown博客，
+&lt;p&gt;如果在Windows下编写markdown博客，
 推荐使用 &lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt; + Winscp + notpad++ 的组合
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;
 注意必须Windows下必须使用notepad++编辑并保存为&lt;em&gt;UTF-无BOM&lt;/em&gt;格式，否者会编译不通过。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-push.sh
+&lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ./build-push.sh
 &lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;/div&amp;gt;
   &amp;lt;/div&amp;gt;
@@ -105,21 +100,16 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
 
 &lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;如果在Windows下编写markdown博客，
+&lt;p&gt;如果在Windows下编写markdown博客，
 推荐使用 &lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt; + Winscp + notpad++ 的组合
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;
 注意必须Windows下必须使用notepad++编辑并保存为&lt;em&gt;UTF-无BOM&lt;/em&gt;格式，否者会编译不通过。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-push.sh
+&lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ./build-push.sh
 &lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;/div&amp;gt;
   &amp;lt;/div&amp;gt;
@@ -140,21 +130,16 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 &lt;p&gt;建议使用chrome浏览器，按F12调试网页，可以在线修改网页属性看效果&lt;/p&gt;
 
 &lt;h3 id=&quot;section-3&quot;&gt;博客发布&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;如果在Windows下编写markdown博客，
+&lt;p&gt;如果在Windows下编写markdown博客，
 推荐使用 &lt;a href=&quot;http://www.jianshu.com/&quot;&gt;简书&lt;/a&gt; + Winscp + notpad++ 的组合
 &lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;&quot; /&gt;
 注意必须Windows下必须使用notepad++编辑并保存为&lt;em&gt;UTF-无BOM&lt;/em&gt;格式，否者会编译不通过。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./build-push.sh
+&lt;p&gt;项目根目录有个脚本&lt;em&gt;build-push.sh&lt;/em&gt;，可以用于一键发布&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ./build-push.sh
 &lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;/div&gt;
 </description>
 				
 				<pubDate>Tue, 26 Apr 2016 00:00:00 +0800</pubDate>
