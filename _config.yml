@@ -56,9 +56,10 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Stay hungry, stay fullish."
+  - text: "Let it be."
 
-me-img: "/img/abelzhu.jpg"
+me-img: "/img/abelzhu.png"
 
 ##############################
 # Color the browser elements #
