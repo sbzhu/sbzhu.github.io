@@ -1,4 +1,10 @@
-# 博客定制
+---
+layout: post
+section-type: post
+title:  定制博客 
+category: tech
+tags: [ 'tutorial', 'jekyll', 'blog' ]
+---
 
 除了定制_config.yml文件，另外再提一些东西
 ### 目录说明
