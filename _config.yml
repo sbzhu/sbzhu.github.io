@@ -69,7 +69,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "A computer lets you make more mistakes faster than any other invention in human history, with the posible exception of handguns and tequila."
-sidebar-avatar: /img/abelzhu.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/abelzhu-1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
