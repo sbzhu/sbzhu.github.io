@@ -37,8 +37,7 @@ _layouts/ 下是各个大部分对小之部分的组合
 如果在Windows下编写markdown博客，
 推荐使用 [简书](http://www.jianshu.com/) + Winscp + notpad++ 的组合
 ![](http://upload-images.jianshu.io/upload_images/1965578-6cdd1aa72eae1d95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-注意必须Windows下必须使用notepad++编辑并保存为*UTF-无BOM*格式，否者会编译不通过。
-
-项目根目录有个脚本*build-push.sh*，可以用于一键发布
+注意必须Windows下必须使用notepad++编辑并保存为*UTF-无BOM*格式，否者会编译不通过。 
+项目根目录有个脚本*build-push.sh*，可以用于一键发布 
 
       ./build-push.sh
