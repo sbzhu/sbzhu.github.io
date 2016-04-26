@@ -6,9 +6,8 @@ date:       2016-04-25 18:00:00
 author:     "abelzhu"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
-tags:
-    - jekyll 
-    - Github
+categories : [web-build, useage]
+tags: [web-build, jekyll, Github]
 ---
 
 # about
