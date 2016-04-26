@@ -5,85 +5,18 @@ title: About me
 ---
 ## Self-introduce
 
-<!-- Language Selector -->
-<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 </option>
-    <option value="1"> English </option>
-</select>
+640 KB outht to be enough for anybody. -- Bill Gates 
+<p><strong></strong></p>
+<p></p>
+<p><strong>Abel Zhu</strong></p>
 
-<!-- Chinese Version -->
-<div class="zh post-container">
+<h5>Resume</h5>
 
-
-    <p><strong>淡泊以明志，宁静以致远. -- 诸葛亮</strong></p>
-    <p></p>
-    <p><strong>Abel Zhu</strong></p>
-
-    <h5>简历</h5>
-
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Huazhong_University_of_Science_and_Technology">华中科技大学, 本科, 2009-2013</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Chinese_Academy_of_Sciences">中国科学院, 硕士, 2013-2016</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Tencent">腾讯, 软件工程师, 2016- </a></li>
-    </ul>
-</div>
-
-<!-- English Version -->
-<div class="en post-container"> 
-    640 KB outht to be enough for anybody. -- Bill Gates 
-    <p><strong></strong></p>
-    <p></p>
-    <p><strong>Abel Zhu</strong></p>
-
-    <h5>Resume</h5>
-
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Huazhong_University_of_Science_and_Technology">Huzhong University of Science and Technology, Graduated of Computer Science, 2009-2013</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Chinese_Academy_of_Sciences">Chinese Acadmy of Science, Master of Computer Science, 2013-2016</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Tencent">Tencent Department of Weixin Group, Software Engineer, 2016- </a></li>
-    </ul>
-
-</div>
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Huazhong_University_of_Science_and_Technology">Huzhong University of Science and Technology, Graduated of Computer Science, 2009-2013</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Chinese_Academy_of_Sciences">Chinese Acadmy of Science, Master of Computer Science, 2013-2016</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Tencent">Tencent Department of Weixin Group, Software Engineer, 2016- </a></li>
+</ul>
 
 
 Support the repo by starring or forking it!
