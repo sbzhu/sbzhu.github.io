@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/abelzhu.jpg"
 
 ##############################
 # Color the browser elements #
@@ -109,12 +109,15 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/wxg.jpg"
+    date: "September 2016 - Today"
+    description: "Tencent, Department of Weixin Group, Software Engineer"
+  - image: "/img/timeline/cas.jpg"
+    date: "September 2013 - July 2016"
+    description: "Chinise Acadmy of Science, Master Degree of Computer Science" 
+  - image: "/img/timeline/hust.jpg"
+    date: "September 2009 - July 2013"
+    description: "Huzhong University of Science and Technology, Graduated student of Computer Science"
 
 # First image of the Timeline
 
@@ -148,8 +151,6 @@ social:
     url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/sbzhu"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
@@ -157,7 +158,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/404-bg.jpg"
 
 ################################################################################
 
