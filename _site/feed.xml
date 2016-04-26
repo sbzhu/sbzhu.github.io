@@ -53,9 +53,11 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 	  {{ page.content | markdownify }}
 	&amp;lt;/div&amp;gt;
   &amp;lt;/div&amp;gt;
-&amp;lt;/section&amp;gt; *text-center* 字体居中
+&amp;lt;/section&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;text-center&lt;/em&gt; 字体居中&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
 &lt;ul&gt;
@@ -86,9 +88,11 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;/div&amp;gt;
   &amp;lt;/div&amp;gt;
-&amp;lt;/section&amp;gt; *text-center* 字体居中
+&amp;lt;/section&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;text-center&lt;/em&gt; 字体居中&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
 &lt;ul&gt;
@@ -119,9 +123,11 @@ _layouts/ 下是各个大部分对小之部分的组合&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	&amp;lt;/div&amp;gt;
   &amp;lt;/div&amp;gt;
-&amp;lt;/section&amp;gt; *text-center* 字体居中
+&amp;lt;/section&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;text-center&lt;/em&gt; 字体居中&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;背景色&lt;/h3&gt;
 &lt;ul&gt;

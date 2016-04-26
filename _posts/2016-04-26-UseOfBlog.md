@@ -22,6 +22,7 @@ _layouts/ 下是各个大部分对小之部分的组合
 		</div>
 	  </div>
 	</section>
+
 *text-center* 字体居中
 
 ### 背景色
