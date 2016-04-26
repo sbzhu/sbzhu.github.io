@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://sbzhu.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -16,7 +16,7 @@ baseurl: /sbzhu.github.io
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: ""
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Abel Zhu"
+title: "{ abelzhu blog }"
+description: "Blogging mainly for tech. Opinions expressed are mine."
+keywords: "abelzhu, sbzhu, jekyll, theme, Github"
 favicon: "/img/favicon.ico"
 
 ################
@@ -87,20 +87,20 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 post-preview-words: 96
 
-paginate: 5
+paginate: 8 
 
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: True
-reddit-share: True
+linkedin-share: False 
+reddit-share: False 
 google-plus-share: True
-tumblr-share: True
-pinterest-share: True
+tumblr-share: False 
+pinterest-share: False 
 pocket-share: True
-vkontakte-share: True
+vkontakte-share: False 
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "abelzhu-blog"
 
 syntax-highlight: True
 
@@ -134,8 +134,8 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "A computer lets you make more mistakes faster than any other invention in human history, with the posible exception of handguns and tequila."
+author_blurb_image: "/img/abelzhu-1.jpg"
 
 ##################
 # Social Buttons #
@@ -147,7 +147,7 @@ social:
   - title: "twitter"
     url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/sbzhu.github.io"
+    url: "https://github.com/sbzhu"
   - title: "bitcoin"
     url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
