@@ -3,13 +3,14 @@
 
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
+    <script src="/sbzhu.github.io/js/toc.js"></script>
     <body background='/sbzhu.github.io/img/bg-1.jpg'>
         {% include head.html %}
         {% include navigation.html %}
 
         <section id="post" class="container content-section">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
+                <div id='toc' class="col-md-10 col-md-offset-1">
 
                     {% include swipe-instructions.html %}
 
@@ -57,6 +58,11 @@
         {% include js.html %}
 
     </body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+                    $('#toc').toc();
+                    });
+    </script>
 </html>
 
 <!-- Post Layout End -->
